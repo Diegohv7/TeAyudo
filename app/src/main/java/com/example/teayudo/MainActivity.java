@@ -3,10 +3,9 @@ package com.example.teayudo;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
+//hola
 public class MainActivity extends AppCompatActivity {
-    //Hola Mundo
-    //Hola Mundo xd
+    //Hola Mundo1
     //123
     @Override
     protected void onCreate(Bundle savedInstanceState) {
