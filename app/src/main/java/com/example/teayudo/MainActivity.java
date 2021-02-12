@@ -2,14 +2,40 @@ package com.example.teayudo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
-//hola
-public class MainActivity extends AppCompatActivity {
-    //Hola Mundo1
-    //123xd
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    Button btnLogin;
+    TextView tvGoSingUp;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        btnLogin=findViewById(R.id.buttonLogin);
+        tvGoSingUp=findViewById(R.id.textViewGoSingup);
+        btnLogin.setOnClickListener(this);
+        tvGoSingUp.setOnClickListener(this);
+
+    }
+
+    @Override
+    public void onClick(View v) {
+        int id=v.getId();
+        switch (id){
+            case R.id.buttonLogin:
+                break;
+            case R.id.textViewGoSingup:
+                goToSingUp();
+                break;
+        }
+    }
+
+    private void goToSingUp() {
+        Intent i= new Intent(MainActivity.this,SingUpActivity.class);
+        startActivity(i);
     }
 }
