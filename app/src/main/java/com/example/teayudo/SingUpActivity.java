@@ -16,6 +16,8 @@ public class SingUpActivity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sing_up);
 
+        getSupportActionBar().hide();
+
         btnSingUp=findViewById(R.id.buttonSingUp);
         tvGoLogin=findViewById(R.id.textViewGoLogin);
 

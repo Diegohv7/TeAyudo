@@ -15,8 +15,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        getSupportActionBar().hide();
+
         btnLogin=findViewById(R.id.buttonLogin);
         tvGoSingUp=findViewById(R.id.textViewGoSingup);
+
         btnLogin.setOnClickListener(this);
         tvGoSingUp.setOnClickListener(this);
 
