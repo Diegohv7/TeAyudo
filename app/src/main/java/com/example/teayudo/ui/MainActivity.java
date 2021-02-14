@@ -1,4 +1,4 @@
-package com.example.teayudo;
+package com.example.teayudo.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.teayudo.R;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button btnLogin;
     TextView tvGoSingUp;
@@ -39,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void goToSingUp() {
-        Intent i= new Intent(MainActivity.this,SingUpActivity.class);
+        Intent i= new Intent(MainActivity.this, SingUpActivity.class);
         startActivity(i);
     }
 }
