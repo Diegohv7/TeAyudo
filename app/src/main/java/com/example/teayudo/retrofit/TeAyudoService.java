@@ -10,9 +10,9 @@ import retrofit2.http.POST;
 
 public interface TeAyudoService {
 
-    @POST("/auth/login")
+    @POST("auth/login")
     Call<ResponseAuth> doLogin(@Body RequestLogin requestLogin);
 
-    @POST("/auth/signup")
+    @POST("auth/signup")
     Call<ResponseAuth> doSingUp(@Body RequestSignup requestSignup);
 }
