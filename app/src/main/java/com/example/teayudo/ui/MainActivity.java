@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     if (response.isSuccessful()){
                         Toast.makeText(MainActivity.this, "Sesión Iniciada Correctamente", Toast.LENGTH_SHORT).show();
 
-                        Intent i = new Intent(MainActivity.this, DashboardActivity.class ); //ERROR AL CREAR LA CLASE DASHBOARD
+                        Intent i = new Intent(MainActivity.this, DashboardActivity.class );
                         startActivity(i);
 
                             //Destruir este Activity para que ya no aparezca el login.
