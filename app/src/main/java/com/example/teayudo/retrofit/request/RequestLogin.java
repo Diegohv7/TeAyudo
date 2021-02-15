@@ -13,10 +13,19 @@ public class RequestLogin {
     @Expose
     private String password;
 
-    public RequestLogin(){
+    /**
+     * No args constructor for use in serialization
+     *
+     */
+    public RequestLogin() {
     }
 
-    public RequestLogin(String email, String password){
+    /**
+     *
+     * @param password
+     * @param email
+     */
+    public RequestLogin(String email, String password) {
         super();
         this.email = email;
         this.password = password;

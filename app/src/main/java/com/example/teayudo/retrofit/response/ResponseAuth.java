@@ -25,6 +25,32 @@ public class ResponseAuth {
     @Expose
     private Boolean active;
 
+    /**
+     * No args constructor for use in serialization
+     *
+     */
+    public ResponseAuth() {
+    }
+
+    /**
+     *
+     * @param photoUrl
+     * @param created
+     * @param active
+     * @param email
+     * @param token
+     * @param username
+     */
+    public ResponseAuth(String token, String username, String email, String photoUrl, String created, Boolean active) {
+        super();
+        this.token = token;
+        this.username = username;
+        this.email = email;
+        this.photoUrl = photoUrl;
+        this.created = created;
+        this.active = active;
+    }
+
     public String getToken() {
         return token;
     }

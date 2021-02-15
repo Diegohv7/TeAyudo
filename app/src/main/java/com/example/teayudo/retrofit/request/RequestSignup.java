@@ -6,18 +6,63 @@ import com.google.gson.annotations.SerializedName;
 
 public class RequestSignup {
 
+    @SerializedName("token")
+    @Expose
+    private String token;
     @SerializedName("username")
     @Expose
     private String username;
     @SerializedName("email")
     @Expose
     private String email;
-    @SerializedName("password")
+    @SerializedName("role")
     @Expose
-    private String password;
-    @SerializedName("code")
+    private String role;
+    @SerializedName("photoUrl")
     @Expose
-    private String code;
+    private String photoUrl;
+    @SerializedName("created")
+    @Expose
+    private String created;
+    @SerializedName("active")
+    @Expose
+    private Boolean active;
+
+    /**
+     * No args constructor for use in serialization
+     *
+     */
+    public RequestSignup() {
+    }
+
+    /**
+     *
+     * @param photoUrl
+     * @param role
+     * @param created
+     * @param active
+     * @param email
+     * @param token
+     * @param username
+     */
+    public RequestSignup(String token, String username, String email, String role, String photoUrl, String created, Boolean active) {
+        super();
+        this.token = token;
+        this.username = username;
+        this.email = email;
+        this.role = role;
+        this.photoUrl = photoUrl;
+        this.created = created;
+        this.active = active;
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
 
     public String getUsername() {
         return username;
@@ -35,20 +80,36 @@ public class RequestSignup {
         this.email = email;
     }
 
-    public String getPassword() {
-        return password;
+    public String getRole() {
+        return role;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setRole(String role) {
+        this.role = role;
     }
 
-    public String getCode() {
-        return code;
+    public String getPhotoUrl() {
+        return photoUrl;
     }
 
-    public void setCode(String code) {
-        this.code = code;
+    public void setPhotoUrl(String photoUrl) {
+        this.photoUrl = photoUrl;
+    }
+
+    public String getCreated() {
+        return created;
+    }
+
+    public void setCreated(String created) {
+        this.created = created;
+    }
+
+    public Boolean getActive() {
+        return active;
+    }
+
+    public void setActive(Boolean active) {
+        this.active = active;
     }
 
 }
