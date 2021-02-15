@@ -15,7 +15,6 @@ import com.example.teayudo.retrofit.TeAyudoClient;
 import com.example.teayudo.retrofit.TeAyudoService;
 import com.example.teayudo.retrofit.request.RequestLogin;
 import com.example.teayudo.retrofit.response.ResponseAuth;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
