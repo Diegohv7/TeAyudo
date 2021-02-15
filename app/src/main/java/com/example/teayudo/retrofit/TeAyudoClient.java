@@ -5,6 +5,7 @@ import com.example.teayudo.common.Constantes;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+
 public class TeAyudoClient {
     private static TeAyudoClient instance = null;
     private TeAyudoService teayudoService;
