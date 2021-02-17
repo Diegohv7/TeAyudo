@@ -1,4 +1,4 @@
-package com.example.teayudo.ui.ui.home;
+package com.android.teayudo.ui.ui.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.teayudo.R;
+import com.android.teayudo.R;
 
 public class HomeFragment extends Fragment {
 

@@ -1,4 +1,4 @@
-package com.example.teayudo.ui;
+package com.android.teayudo.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,11 +10,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.teayudo.R;
-import com.example.teayudo.retrofit.TeAyudoClient;
-import com.example.teayudo.retrofit.TeAyudoService;
-import com.example.teayudo.retrofit.request.RequestLogin;
-import com.example.teayudo.retrofit.response.ResponseAuth;
+import com.android.teayudo.R;
+import com.android.teayudo.retrofit.TeAyudoClient;
+import com.android.teayudo.retrofit.TeAyudoService;
+import com.android.teayudo.retrofit.request.RequestLogin;
+import com.android.teayudo.retrofit.response.ResponseAuth;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

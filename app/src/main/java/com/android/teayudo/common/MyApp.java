@@ -1,4 +1,4 @@
-package com.example.teayudo.common;
+package com.android.teayudo.common;
 
 import android.app.Application;
 import android.content.Context;

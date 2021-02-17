@@ -1,6 +1,6 @@
-package com.example.teayudo.retrofit;
+package com.android.teayudo.retrofit;
 
-import com.example.teayudo.common.Constantes;
+import com.android.teayudo.common.Constantes;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

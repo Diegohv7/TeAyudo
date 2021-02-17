@@ -1,5 +1,5 @@
 
-package com.example.teayudo.retrofit.request;
+package com.android.teayudo.retrofit.request;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

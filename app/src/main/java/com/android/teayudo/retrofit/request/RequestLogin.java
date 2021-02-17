@@ -1,5 +1,7 @@
 
-package com.example.teayudo.retrofit.request;
+package com.android.teayudo.retrofit.request;
+
+//package com.android.teayudo;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
@@ -46,5 +48,6 @@ public class RequestLogin {
     public void setPassword(String password) {
         this.password = password;
     }
+
 
 }

@@ -1,9 +1,9 @@
-package com.example.teayudo.retrofit;
+package com.android.teayudo.retrofit;
 
 
-import com.example.teayudo.retrofit.request.RequestLogin;
-import com.example.teayudo.retrofit.request.RequestSignup;
-import com.example.teayudo.retrofit.response.ResponseAuth;
+import com.android.teayudo.retrofit.request.RequestLogin;
+import com.android.teayudo.retrofit.request.RequestSignup;
+import com.android.teayudo.retrofit.response.ResponseAuth;
 
 import retrofit2.Call;
 import retrofit2.http.Body;

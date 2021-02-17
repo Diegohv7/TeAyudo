@@ -1,4 +1,4 @@
-package com.example.teayudo.ui.ui.notifications;
+package com.android.teayudo.ui.ui.notifications;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

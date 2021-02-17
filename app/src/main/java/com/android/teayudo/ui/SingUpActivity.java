@@ -1,4 +1,4 @@
-package com.example.teayudo.ui;
+package com.android.teayudo.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.teayudo.R;
+import com.android.teayudo.R;
 
 public class SingUpActivity extends AppCompatActivity implements View.OnClickListener {
     Button btnSingUp;

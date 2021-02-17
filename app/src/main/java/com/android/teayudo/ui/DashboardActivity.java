@@ -1,8 +1,8 @@
-package com.example.teayudo.ui;
+package com.android.teayudo.ui;
 
 import android.os.Bundle;
 
-import com.example.teayudo.R;
+import com.android.teayudo.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
